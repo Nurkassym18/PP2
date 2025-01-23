@@ -14,12 +14,12 @@ for x in range(2, 30, 3):
 for x in range(6):
       print(x)
 else:
-  print("Finally finished!")
+  print("Finally !")
 
 
 
 # two list 
-adj = ["red", "big", "tasty"]
+adj = [1, 2, 3]
 fruits = ["apple", "banana", "cherry"]
 
 for x in adj:

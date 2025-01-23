@@ -1,5 +1,5 @@
 #create 
-thistuple = ("apple", "banana", "cherry")
+thistuple = ("Kymyz", "shubat", "sut")
 print(thistuple)
 #length of tuple
 print(len(thistuple))
@@ -9,32 +9,32 @@ thistuple = ("apple")
 print(type(thistuple))
 
 #print second item
-thistuple = ("apple", "banana", "cherry")
+thistuple = ("Kymyz", "shubat", "sut")
 print(thistuple[1])
 
 #update 
-x = ("apple", "banana", "cherry")
+x = ("Kymyz", "shubat", "sut")
 y = list(x)
-y[1] = "kiwi"
+y[1] = "Tary"
 x = tuple(y)
 
 print(x)
 
-thistuple = ("apple", "banana", "cherry")
+thistuple = ("Kymyz", "shubat", "sut")
 y = list(thistuple)
-y.append("orange")
+y.append("Kurt")
 thistuple = tuple(y)
 
 #remove 
-thistuple = ("apple", "banana", "cherry")
+thistuple = ("Kymyz", "shubat", "sut")
 y = list(thistuple)
-y.remove("apple")
+y.remove("Kymyz")
 thistuple = tuple(y)
 
 #unpacking tuple
-fruits = ("apple", "banana", "cherry")
+Nauryz = ("Kymyz", "shubat", "sut")
 
-(green, yellow, red) = fruits
+(green, yellow, red) = Nauryz
 
 print(green)
 print(yellow)
@@ -50,7 +50,7 @@ print(yellow)
 print(red)   #return apple,banana , [cherry, strawberry , raspberry]
 
 #loop through tuple 
-thistuple = ("apple", "banana", "cherry")
+thistuple = ("Kymyz", "shubat", "sut")
 for x in thistuple:
   print(x)
 
@@ -66,7 +66,27 @@ tuple3 = tuple1 + tuple2
 print(tuple3)
 
 
-fruits = ("apple", "banana", "cherry")
+fruits = ("Kymyz", "shubat", "sut")
 mytuple = fruits * 2
 
 print(mytuple)
+
+
+Mytuple=("Name","Surname")
+lst=["Nurkassym","tynystan"]
+k=int(0)
+sets=set({})
+for i in range(len(Mytuple)):
+    if Mytuple[i]=="Name":
+        sss=Mytuple[i]+": "+lst[k]
+        sets.add(sss)
+        k+=1
+    elif Mytuple[i]=="Surname":
+        ssss=Mytuple[i]+": "+lst[k]
+        sets.add(ssss)
+
+lsttt=list(Mytuple)
+lsttt.remove("Name")
+Mytuple=tuple(lsttt)
+print(Mytuple)
+print(sets)

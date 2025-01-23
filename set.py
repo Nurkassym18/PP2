@@ -1,17 +1,17 @@
 #create a set 
-thisset = {"apple", "banana", "cherry"}
+thisset = {18,19,true}
 print(thisset)
 #Set items are unordered, unchangeable, and do not allow duplicate values
 #length
-thisset = {"apple", "banana", "cherry"}
+thisset = {1,2,"gfgf"}
 
 print(len(thisset))
 
 
 # method add 
-thisset = {"apple", "banana", "cherry"}
+thisset = {"Kymyz", "shubat", "sut"}
 
-thisset.add("orange")
+thisset.add("Kurt")
 
 print(thisset)
 # method update thisset = {"apple", "banana", "cherry"}
@@ -30,20 +30,20 @@ thisset.update(mylist)
 print(thisset)
 
 #remove 
-thisset = {"apple", "banana", "cherry"}
+thisset = {"Kymyz", "shubat", "sut"}
 
-thisset.remove("banana")
+thisset.remove("shubat")
 
 print(thisset)
 
 #discard
-thisset = {"apple", "banana", "cherry"}
+thisset = {"Kymyz", "shubat", "sut"}
 
-thisset.discard("banana")
+thisset.discard("Kurt")
 
 print(thisset)
 #pop   remove random item 
-thisset = {"apple", "banana", "cherry"}
+thisset = {"Kymyz", "shubat", "sut"}
 
 x = thisset.pop()
 
@@ -51,13 +51,13 @@ print(x)
 
 print(thisset)
 # clear 
-thisset = {"apple", "banana", "cherry"}
+thisset = {"Kymyz", "shubat", "sut"}
 
 thisset.clear()
 
 print(thisset)
  #loop through set 
-thisset = {"apple", "banana", "cherry"}
+thisset = {"Kymyz", "shubat", "sut"}
 
 for x in thisset:
   print(x)
@@ -78,8 +78,8 @@ print(set3)
 
 set1 = {"a", "b", "c"}
 set2 = {1, 2, 3}
-set3 = {"John", "Elena"}
-set4 = {"apple", "bananas", "cherry"}
+set3 = {"Nurik", "Nuric"}
+set4 = {"Kymyz", "shubat", "sut"}
 
 myset = set1.union(set2, set3, set4)
 print(myset)
@@ -92,15 +92,15 @@ set1.update(set2)
 print(set1)
 
 #join by intersection 
-set1 = {"apple", "banana", "cherry"}
+set1 = {"Kymyz", "shubat", "apple"}
 set2 = {"google", "microsoft", "apple"}
 
 set3 = set1.intersection(set2)
 print(set3) # return only 'apple'
 
 #difference 
-set1 = {"apple", "banana" , "cherry"}
-set2 = {"google", "microsoft", "apple"}
+set1 = {"Kymyz", "shubat", "sut"}
+set2 = {"google", "microsoft", "sut"}
 
 set3 = set1.difference(set2)
 print(set3)

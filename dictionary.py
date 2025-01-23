@@ -1,44 +1,44 @@
 thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+  "Name": "Nurkassym",
+  "Surname": "Tynystan",
+  "Age": 18
 }
 
 #Dictionaries are changeable, meaning that we can change, add or remove items after the dictionary has been created.
 
 thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+  "Name": "Nurkassym",
+  "Surname": "Tynystan",
+  "Age": 18
 }
 print(thisdict["brand"])#return "Ford"
 
 thisdict = {
-  "brand": "Ford",
-  "electric": False,
-  "year": 1964,
-  "colors": ["red", "white", "blue"]#list in value 
+"Name": "Nurkassym",
+  "Surname": "Tynystan",
+  "Age": 18
+  "parents:": ["Kalyk", "Gulvira"]#list in value 
 }
 
 #use dict method
-thisdict = dict(name = "John", age = 36, country = "Norway")
+thisdict = dict(name = "Nurkasym", age = 18, country = "Kazakhstan")
 print(thisdict)
 
 
 #get 
 thisdict =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+  "Name": "Nurkassym",
+  "Surname": "Tynystan",
+  "Age": 18
 }
-x = thisdict.get("model")
+x = thisdict.get("Age")
 print(x)
 
 #keys
 thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+ "Name": "Nurkassym",
+  "Surname": "Tynystan",
+  "Age": 18
 }
 
 x = thisdict.keys()
@@ -53,43 +53,42 @@ print(rf)
 
 # update
 thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+  "Name": "Nurkassym",
+  "Surname": "Tynystan",
+  "Age": 18
 }
-thisdict.update({"year": 2020})
+thisdict.update({"Age": 19})
 
 #add new elements 
 thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-thisdict.update({"color": "red"})
+ "Name": "Nurkassym",
+  "Surname": "Tynystan",
+  "Age": 18
+thisdict.update({"height": "178"})
 
 # remove by popitem()
 thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+  "Name": "Nurkassym",
+  "Surname": "Tynystan",
+  "Age": 18
 }
 thisdict.popitem()
 print(thisdict)
 #clear 
 thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+ "Name": "Nurkassym",
+  "Surname": "Tynystan",
+  "Age": 18
 }
 thisdict.clear()
 print(thisdict)
 #pop
 thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+  "Name": "Nurkassym",
+  "Surname": "Tynystan",
+  "Age": 18
 }
-thisdict.pop("model")
+thisdict.pop("Age")
 print(thisdict)
 
 #loop 
@@ -105,18 +104,19 @@ for x, y in thisdict.items():
 
   #copy 
 thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+  "Name": "Nurkassym",
+  "Surname": "Tynystan",
+  "Age": 18
 }
 mydict = thisdict.copy()
 print(mydict)
 
 
 thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+  "Name": "Nurkassym",
+  "Surname": "Tynystan",
+  "Age": 18
+}
 }
 mydict = dict(thisdict)
 print(mydict)
@@ -124,16 +124,12 @@ print(mydict)
 #nested dictionaries
 myfamily = {
   "child1" : {
-    "name" : "Emil",
-    "year" : 2004
+    "name" : "Nurkasym",
+    "year" : 2006
   },
   "child2" : {
-    "name" : "Tobias",
-    "year" : 2007
-  },
-  "child3" : {
-    "name" : "Linus",
-    "year" : 2011
+    "name" : "Adiya",
+    "year" : 2006
   }
 }
 
